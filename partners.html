@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partnerschaften</title>
+    <meta name="title" content="NexGen Offizielle Website">
+    <meta name="description" content="Dies ist die offizielle Website von NexGen">
+    <meta name="keywords" content="Discord, Server, Community, Free">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content=".Waschbear">
+    <title>NexGen</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
+        body #partners {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
         }
-        h1 {
+        h1 #partners{
             text-align: center;
             margin-bottom: 20px;
         }
-        ul {
+        ul .partners{
             list-style-type: none;
             padding: 0;
         }
-        li {
+        li .partners{
             margin-bottom: 10px;
         }
         .partner {
@@ -26,10 +32,32 @@
             border-radius: 5px;
             padding: 10px;
         }
-    </style>
 </head>
 <body>
-    <h1>Unsere Partnerschaften</h1>
+    <header>
+        <div class="container">
+            <h1>NexGen</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Services</a>
+                        <div class="dropdown-content">
+                            
+                            <a href="commands.html">Commands</a>
+                            <a href="vip.html">VIP</a>
+                            <!-- Fügen Sie hier weitere Dienste hinzu -->
+                        </div>
+                    </li>
+                    <!-- Fügen Sie hier weitere Seiten hinzu -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body id="parners">
+    <h1 id="partners">Unsere Partnerschaften</h1>
     <ul>
         <li class="partner">
             <h2>Partner 1</h2>
@@ -43,5 +71,16 @@
         </li>
         <!-- Weitere Partner hier einfügen -->
     </ul>
+</body>
+        
+            
+            
+            
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NexGen. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
